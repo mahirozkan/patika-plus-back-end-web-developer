@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariablesApp", "week-1\Vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElseIf", "week-1\ElseIf\ElseIf.csproj", "{0A8EC24B-0536-4DC8-BB26-A3241462EEA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManavAppSwitchCase", "week-1\SwitchCase\ManavAppSwitchCase.csproj", "{A0022813-BC45-4C35-B302-DB4D67B8974E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{0A8EC24B-0536-4DC8-BB26-A3241462EEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A8EC24B-0536-4DC8-BB26-A3241462EEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A8EC24B-0536-4DC8-BB26-A3241462EEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0022813-BC45-4C35-B302-DB4D67B8974E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0022813-BC45-4C35-B302-DB4D67B8974E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0022813-BC45-4C35-B302-DB4D67B8974E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0022813-BC45-4C35-B302-DB4D67B8974E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{B236D288-258A-4627-9587-2CEC389D4E05} = {2C7FEEDE-A67F-46A8-BE7A-40DDAC770B34}
 		{F583CA48-B012-45FB-A55C-8CD26A7ED557} = {2C7FEEDE-A67F-46A8-BE7A-40DDAC770B34}
 		{0A8EC24B-0536-4DC8-BB26-A3241462EEA4} = {2C7FEEDE-A67F-46A8-BE7A-40DDAC770B34}
+		{A0022813-BC45-4C35-B302-DB4D67B8974E} = {2C7FEEDE-A67F-46A8-BE7A-40DDAC770B34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58D19E0E-C3A4-40AA-A636-429950FBE7A2}
