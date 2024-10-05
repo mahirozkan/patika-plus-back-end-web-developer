@@ -1,5 +1,3 @@
-#If-Else
-
-If-Else ifadeleri kullanılarak girilen sayının 10'dan büyük, küçük veya 10'a eşit olduğunu, ayrıca sayının çift ya da tek olduğunu belirten program oluşturuldu.
-
-![ekran görüntüsü](https://i.ibb.co/c2CjK82/ss.png "ekran görüntüsü")
+# Patika+ Back-end Web Developer Programı Ödevleri
+Patika+ Back-end Web Developer Programı Ödevleri reposuna hoşgeldiniz.
+Bu repoda C# dili kullanılarak program boyunca yaptığım örnekleri bulabilirsiniz.
