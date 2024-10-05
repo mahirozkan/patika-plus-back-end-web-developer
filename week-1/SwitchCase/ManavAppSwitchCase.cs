@@ -10,6 +10,9 @@ Console.Write("Hangi meyveyi seçmek istersiniz? (Elma/Armut/Çilek/Muz/Diğer) 
 string meyve = Console.ReadLine().Trim().ToLower();     // Kullanıcıdan aldığımız girdiyi küçük harfe çeviriyoruz ve baştaki/sondaki boşlukları kaldırıyoruz 
                                                         // Hangi meyvenin istendiğini string meyve içine yazdırıyoruz
 
+// Bu uygulama switch-case yapısını kullanmak kodun okunabilirliği, programın hızlı karar verebilmesi açısından daha sağlıklı olacaktır.
+// Örnekte basit ve sabit seçenekler olduğundan switch-case ana yöntem olarak kullanılmıştır.
+
 switch (meyve)  // Meyve için sorgulamayı başlatıyoruz
 {
     case "elma":
