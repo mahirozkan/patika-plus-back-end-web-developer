@@ -33,3 +33,35 @@ switch (meyve)  // Meyve için sorgulamayı başlatıyoruz
 }       
 Console.ReadKey();  // Programın kendiliğinden kapanmaması için bir giriş yapılmasını bekliyoruz
 return;
+
+#region Yöntem 2 ElseIf
+
+// Switch-Case'e alternatif If-Else yapısı ile aynı programın kodları aşağı eklenmiştir satır 11'e kadar olan kodlar her iki yöntemde de ortak kullanılabilir 
+
+//if (meyve == "elma") // meyve stringi elmay'a eşit mi diye sorulur
+//{
+//    Console.WriteLine("Seçtiğiniz meyvenin fiyatı: 2 TL");  // meyvenin elma olması durumunda fiyat bilgisini kullanıcıya veriyoruz
+//}
+//else if (meyve == "armut") // meyve stringi armut'a eşit mi diye sorulur
+//{
+//    Console.WriteLine("Seçtiğiniz meyvenin fiyatı: 3 TL");  // meyvenin armut olması durumunda fiyat bilgisini kullanıcıya veriyoruz
+//}
+//else if (meyve == "çilek") // meyve stringi çilek'e eşit mi diye sorulur
+//{
+//    Console.WriteLine("Seçtiğiniz meyvenin fiyatı: 2 TL");  // meyvenin çilek olması durumunda fiyat bilgisini kullanıcıya veriyoruz
+//}
+//else if (meyve == "muz") // meyve stringi muz'a eşit mi diye sorulur
+//{
+//    Console.WriteLine("Seçtiğiniz meyvenin fiyatı: 2 TL");  // meyvenin muz olması durumunda fiyat bilgisini kullanıcıya veriyoruz
+//}
+//else if (meyve == "diğer") // meyve stringi diğer'e eşit mi diye sorulur
+//{
+//    Console.WriteLine("Seçtiğiniz meyvenin fiyatı: 4 TL");  // diğer olması durumunda fiyat bilgisini kullanıcıya veriyoruz
+//}
+//else
+//{ 
+//        Console.WriteLine("Hatalı giriş yaptınız!");        // Geçersiz bilgi girişinde kullanıcıyı uyarıyoruz
+//}
+//Console.ReadKey();
+//return;
+#endregion
