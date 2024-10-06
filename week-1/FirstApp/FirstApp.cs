@@ -8,6 +8,8 @@ namespace week1
         {
             Console.WriteLine("Mahir Özkan");
             Console.WriteLine("Kendimi yazılım alanında geliştirmek ve keşkelerimden kurtulmak için bu bootcampteyim!");
+            Console.ReadKey();
         }
+        
     }
 }
