@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S09Sifre", "week-1-bomb\S09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S10Islem", "week-1-bomb\S10Islem\S10Islem.csproj", "{939929E0-4FB5-457B-889B-64D3A0FB1DDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForApp", "week-2\ForApp\ForApp.csproj", "{08B05721-7850-4485-AF7F-B0E3CC2B4913}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{939929E0-4FB5-457B-889B-64D3A0FB1DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939929E0-4FB5-457B-889B-64D3A0FB1DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939929E0-4FB5-457B-889B-64D3A0FB1DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B05721-7850-4485-AF7F-B0E3CC2B4913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B05721-7850-4485-AF7F-B0E3CC2B4913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B05721-7850-4485-AF7F-B0E3CC2B4913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B05721-7850-4485-AF7F-B0E3CC2B4913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
