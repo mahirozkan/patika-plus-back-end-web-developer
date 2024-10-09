@@ -47,6 +47,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-1-bomb", "week-1-bomb"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TatilApp", "week-2\TatilApp\TatilApp.csproj", "{D1A74994-DBFB-4F02-9A49-33A0CD362FD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetotApp", "week-2\MetotApp\MetotApp.csproj", "{CC60F4F5-7A10-4D72-891B-806126D1DEA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{D1A74994-DBFB-4F02-9A49-33A0CD362FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A74994-DBFB-4F02-9A49-33A0CD362FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A74994-DBFB-4F02-9A49-33A0CD362FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC60F4F5-7A10-4D72-891B-806126D1DEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC60F4F5-7A10-4D72-891B-806126D1DEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC60F4F5-7A10-4D72-891B-806126D1DEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC60F4F5-7A10-4D72-891B-806126D1DEA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
