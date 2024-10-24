@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace IlkSinif
 {
-    public class Person
+    public class Person  // Person adında bir sınıf tanımlıyoruz, bu sınıf hem öğrenci hem de öğretmen gibi genel kişileri temsil edecek
     {
-        public string Name { get; set; }
-        public string SurName { get; set; }
-        public DateOnly BirthDate { get; set; }
-        public string Role {  get; set; }
+        public string Name { get; set; } // Kişinin adı
+        public string SurName { get; set; } // Kişinin soyadı
+        public DateOnly BirthDate { get; set; } // Kişinin doğum tarihi
+        public string Role {  get; set; } // Kişinin rolü (örneğin Öğrenci ya da Öğretmen)
 
         public void GetDetails()
         {
-            Console.WriteLine($"{Name} {SurName} isimli {Role}, {BirthDate} tarihinde doğmuştur.");
+            Console.WriteLine($"{Name} {SurName} isimli {Role}, {BirthDate} tarihinde doğmuştur."); // Kişinin adı, soyadı, rolü ve doğum tarihi formatlı bir şekilde ekrana yazdırılır
         }
 
     }
