@@ -1,5 +1,3 @@
-# Film Sorguları
-
 1. **Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayın.**
 
     ```sql

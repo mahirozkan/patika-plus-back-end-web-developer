@@ -1,5 +1,3 @@
-# Film Sorguları
-
 1. **Country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.**
 
     ```sql
@@ -34,4 +32,4 @@
     FROM film
     WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;
     ```
-    ![Cevap03](https://github.com/mahirozkan/patika-plus-back-end-web-developer/blob/master/week-6/Odev03/s04.png)
+    ![Cevap04](https://github.com/mahirozkan/patika-plus-back-end-web-developer/blob/master/week-6/Odev03/s04.png)
