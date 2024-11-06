@@ -13,11 +13,10 @@
     ```sql
     SELECT * FROM film
     WHERE title LIKE '%n'
-    ORDER BY length DESC
+    ORDER BY length ASC
     OFFSET 5
     LIMIT 5;
     ```
-    ![Cevap02](https://github.com/mahirozkan/patika-plus-back-end-web-developer/blob/master/week-6/Odev05/s02.png)
 
 3. **Customer tablosunda bulunan last_name sütununa göre azalan yapılan sıralamada store_id 1 olmak koşuluyla ilk 4 veriyi sıralayınız.**
 
