@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqGroupJoin", "LinqGroupJoin\LinqGroupJoin.csproj", "{842F8353-71D1-4D33-A554-92E296E4F13D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842F8353-71D1-4D33-A554-92E296E4F13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842F8353-71D1-4D33-A554-92E296E4F13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842F8353-71D1-4D33-A554-92E296E4F13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842F8353-71D1-4D33-A554-92E296E4F13D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC918E9C-E31A-4146-859E-3D6144737964}
+	EndGlobalSection
+EndGlobal
