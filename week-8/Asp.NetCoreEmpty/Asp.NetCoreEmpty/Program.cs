@@ -11,37 +11,49 @@ namespace Asp.NetCoreEmpty
 
             var app = builder.Build();
 
-            // HTTP isteklerinin i�lenmesi i�in pipeline yap�land�rmas�
-            if (!app.Environment.IsDevelopment()) // Geli�tirme ortam�nda de�ilse
+            // HTTP isteklerinin işlenmesi için pipeline yapılandırması
+            if (!app.Environment.IsDevelopment()) // Geliştirme ortamında değilse
             {
-                app.UseExceptionHandler("/Home/Error");  // Hata durumlar�nda �zel bir hata sayfas�na y�nlendirme
+                app.UseExceptionHandler("/Home/Error");  // Hata durumlarında özel bir hata sayfasına yönlendirme
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts(); // HTTP Strict Transport Security (HSTS) protokol�n� etkinle�tirir
+                app.UseHsts(); // HTTP Strict Transport Security (HSTS) protokolünü etkinleştirir
             }
 
-            app.UseHttpsRedirection(); // HTTP isteklerini otomatik olarak HTTPS'e y�nlendirir
-            app.UseStaticFiles(); // wwwroot klas�r�ndeki statik dosyalar�n kullan�lmas�n� sa�lar
+            app.UseHttpsRedirection(); // HTTP isteklerini otomatik olarak HTTPS'e yönlendirir
+            app.UseStaticFiles(); // wwwroot klasöründeki statik dosyaların kullanılmasını sağlar
 
-            app.UseRouting(); // Routing yap�land�rmas�n� etkinle�tirir
+            app.UseRouting(); // Routing yapılandırmasını etkinleştirir
 
-            app.UseAuthorization(); // Yetkilendirme i�lemleri i�in middleware eklenir
+            app.UseAuthorization(); // Yetkilendirme işlemleri için middleware eklenir
 
-            app.MapControllerRoute( // Varsay�lan routing yap�land�rmas�
-                name: "default", // Routing'in ad�
-                pattern: "{controller=Home}/{action=Index}/{id?}"); // Varsay�lan olarak HomeController'�n Index action'� �a�r�l�r.
+            app.MapControllerRoute( // Varsayılan routing yapılandırması
+                name: "default", // Routing'in adı
+                pattern: "{controller=Home}/{action=Index}/{id?}"); // Varsayılan olarak HomeController'ın Index action'ı çağrılır.
 
-            app.Run(); // Uygulamay� �al��t�r�r
+            app.Run(); // Uygulamayı çalıştırır
 
-            /*
-            - builder: Uygulama olu�turulurken yap�land�rmalar�n yap�ld��� nesne
-            - builder.Services.AddControllersWithViews(): MVC mimarisinde controller ve view kullan�m�n� aktif eder
-            - app.Environment.IsDevelopment(): Geli�tirme ortam�nda olup olmad���n� kontrol eder
-            - app.UseHttpsRedirection(): T�m HTTP isteklerini HTTPS'ye y�nlendirir
-            - app.UseStaticFiles(): wwwroot klas�r�ndeki statik dosyalar� servis eder
-            - app.UseRouting(): Gelen isteklerin do�ru controller ve action'a y�nlendirilmesini sa�lar
-            - app.MapControllerRoute(): Varsay�lan routing'i tan�mlar (�r. /Home/Index)
-            - app.Run(): Uygulamay� ba�lat�r ve gelen HTTP isteklerini dinler
-            */
+/*
+    - Controller: Kullanıcıdan gelen HTTP isteklerini işleyen sınıflardır. İsteklere yanıt olarak 
+      bir view (görünüm) veya veri döndürürler. Örneğin, bir "HomeController" sınıfı, 
+      anasayfa isteklerini yönetir.
+    - Action: Controller içinde tanımlanan ve belirli bir isteği işleyen metotlardır. 
+      Örneğin, "Index" bir action metotudur ve genellikle varsayılan olarak çağrılır.
+    - Model: Veriyi temsil eder ve iş mantığını içerir. Veri tabanı işlemleri gibi uygulamanın 
+      veriyle olan tüm etkileşimlerini düzenler.
+    - View: Kullanıcıya gösterilecek olan görünümleri (UI) temsil eder. Razor ile yazılır ve 
+      HTML ile C# kodlarını birleştirir.
+    - Razor: ASP.NET Core için kullanılan bir şablon motorudur. C# kodlarını HTML ile 
+      birleştirmemizi sağlar. Örneğin, bir döngüyü veya koşulu direkt HTML içinde 
+      yazabilirsiniz.
+    - RazorView: Razor şablonları ile oluşturulan .cshtml dosyalarıdır. Örneğin, 
+      "Index.cshtml" dosyası bir RazorView'dir.
+    - wwwroot: Uygulamanın dış dünyaya sunulan statik dosyalarını barındıran klasördür. 
+      Örneğin, CSS, JavaScript ve resim dosyaları burada bulunur.
+    - builder.Build(): Uygulamanın yapılandırmasını tamamlar ve çalıştırılabilir bir 
+      hale getirir. Middleware'ler, servisler ve pipeline bu aşamada hazırlanır.
+    - app.Run(): Uygulamayı başlatır ve gelen HTTP isteklerini dinlemeye başlar. 
+      Uygulamanın ana döngüsü bu metot ile çalışır.
+*/
         }
     }
 }
