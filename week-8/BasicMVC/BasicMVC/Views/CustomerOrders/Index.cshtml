@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Customer Details";
+}
+@model BasicMVC.Models.CustomerViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Details</title>
+</head>
+<body>
+    <h1>Customer Details</h1>
+    <p><strong>Id:</strong> @Model.Customer.Id</p>
+    <p><strong>First Name:</strong> @Model.Customer.FirstName</p>
+    <p><strong>Last Name:</strong> @Model.Customer.LastName</p>
+    <p><strong>Email:</strong> @Model.Customer.Email</p>
+
+    <table>
+        <tr>
+            <th>Id:</th>
+            <th>ProductName:</th>
+            <th>Price:</th>
+            <th>Quantity:</th>
+            <th>Total:</th>
+        </tr>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.ProductName</td>
+                <td>@order.Price</td>
+                <td>@order.Quantity</td>
+                <td>@(order.Price * order.Quantity)</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
