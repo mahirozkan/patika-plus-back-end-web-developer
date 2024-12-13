@@ -1,0 +1,6 @@
+@CelebritiesApi_HostAddress = http://localhost:5177
+
+GET {{CelebritiesApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
