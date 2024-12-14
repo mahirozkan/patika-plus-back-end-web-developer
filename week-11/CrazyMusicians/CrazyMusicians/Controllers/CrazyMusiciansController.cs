@@ -24,7 +24,6 @@ namespace CrazyMusicians.Controllers
         };
 
         [HttpGet]
-
         public IEnumerable<CrazyMusician> GetAll()
         {
             return _crazyMusicians;
