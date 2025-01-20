@@ -8,6 +8,7 @@ namespace IdentityandDataProtection.Data
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Email alanı zorunludur!")]
+        [EmailAddress]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Şifre zorunludur!")]
